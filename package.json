@@ -1,0 +1,25 @@
+{
+  "name": "teste_api",
+  "version": "1.0.0",
+  "description": "Projeto de testes automatizados de API com Playwright",
+  "homepage": "https://github.com/Adriel-PS/teste_api#readme",
+  "bugs": {
+    "url": "https://github.com/Adriel-PS/teste_api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adriel-PS/teste_api.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "dependencies": {
+    "playwright": "^1.65.1"
+  }
+}
